@@ -1,0 +1,74 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "imgSrc": "@/assets/images/blood-donation.jpg",
+      "title": "Doe sangue.",
+      "coloredTitle": " Salve vidas.",
+      "description": "Em 2020 as doações de sangue caíram em 20%. Com 1 doação você pode salvar até 4 vidas.",
+      "buttonText": "Quero doar sangue",
+      "color": "blood",
+      "href": "http://www.prosangue.sp.gov.br/artigos/requisitos_basicos_para_doacao.html"
+    },
+    {
+      "id": "2",
+      "imgSrc": "@/assets/images/dog.jpg",
+      "title": "Tire a dor",
+      "coloredTitle": " de animais doentes.",
+      "description": "Maus tratos a animais não param de crescer no Brasil, mas você pode tirar a dor de muitos desses bixos.",
+      "buttonText": "Quero ajudar",
+      "color": "dog",
+      "href": "https://www.instagram.com/esdrasandradeoficial/"
+    },
+    {
+      "id": "3",
+      "imgSrc": "@/assets/images/bone-marrow-donation.jpg",
+      "title": "Doe medula óssea.",
+      "coloredTitle": " Doe vida.",
+      "description": "O transplante de medula óssea pode beneficiar o tratamento de cerca de 80 doenças. Você pode libertar alguém do sofrimento e salvar uma vida!",
+      "buttonText": "Quero doar medula",
+      "color": "bone-marrow",
+      "href": "http://redome.inca.gov.br/doador/perguntas-e-respostas-do-doador/"
+    },
+    {
+      "id": "4",
+      "imgSrc": "@/assets/images/kid-with-cancer.jpg",
+      "title": "Ajude crianças",
+      "coloredTitle": " com câncer.",
+      "description": "O GAAC é especializado em atender crianças e jovens com câncer para aumentar a expectativa de vida e garantir a qualidade do tratamento da doença. ",
+      "buttonText": "Quero ajudar",
+      "color": "kid",
+      "href": "https://www.gacc.com.br/conheca-o-gacc/sobre"
+    },
+    {
+      "id": "5",
+      "imgSrc": "@/assets/images/menstrual-poverty.jpg",
+      "title": "Amenize a dor",
+      "coloredTitle": " de jovens.",
+      "description": "A probreza menstrual tira meninas da escola e até causa mortes no Brasil, mas você pode amezinar esse problema.",
+      "buttonText": "Quero ajudar",
+      "color": "poverty",
+      "href": "https://www.fluxosemtabu.com/"
+    },
+    {
+      "id": "6",
+      "imgSrc": "@/assets/images/homeless.jpg",
+      "title": "Tire a fome",
+      "coloredTitle": " de moradores de rua.",
+      "description": "Mais de 220 mil pessoas estão em situação de rua no Brasil e você pode amenizar esse problema do conforto de sua casa.",
+      "buttonText": "Quero ajudar",
+      "color": "homeless",
+      "href": "https://www.instagram.com/bemdamadrugada.sjc/"
+    },
+    {
+      "id": "7",
+      "imgSrc": "@/assets/images/organ-donation.jpg",
+      "title": "Doe órgãos.",
+      "coloredTitle": " A vida precisa continuar.",
+      "description": "Um único doador pode salvar a vida de até 8 pessoas. Ser um doador de órgãos é um ato de amor. Converse com sua família. ",
+      "buttonText": "Quero ser doador",
+      "color": "organs",
+      "href": "https://portalarquivos.saude.gov.br/campanhas/doeorgaos/"
+    }
+  ]
+}
