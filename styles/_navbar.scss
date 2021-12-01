@@ -1,0 +1,47 @@
+#navbar {
+  background: #fff;
+  height: 100vh;
+  .nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 15vh;
+    h1 {
+      font-weight: 700;
+      font-family: "Kumbh Sans", sans-serif;
+      color: #000;
+    }
+    a {
+      text-decoration: none;
+      cursor: pointer;
+      font-size: 18rem;
+      font-weight: 500;
+      padding: 10rem 20rem;
+      border-radius: 20px;
+      border: 2rem solid #000;
+      color: #000;
+      transition: all 0.4s ease-in-out;
+      &:hover {
+        border: 2rem solid #5a5a5a;
+        color: #fff;
+        background: #000;
+      }
+    }
+  }
+  .message {
+    color: #000;
+    height: 85vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../assets/images/bg.png);
+    h1 {
+      width: 70vw;
+      margin: 0 auto;
+      padding: 50rem 0;
+      font: 600 30rem "Montserrat", sans-serif;
+    }
+  }
+}

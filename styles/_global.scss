@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kumbh+Sans:wght@400;700&family=Montserrat:wght@400;500;600;700&display=swap');
+
+:root{
+    font-size: 6.67%;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #17181a;
+    color: white;
+}
+body, button, a{
+    font: 400 25rem 'Montserrat', sans-serif;
+    color: white;
+}
+h1{
+    font: 400 50rem 'Abril Fatface', sans-serif;
+}

@@ -1,1 +1,296 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kumbh+Sans:wght@400;700&family=Montserrat:wght@400;500;600;700&display=swap");
+:root {
+  font-size: 6.67%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #17181a;
+  color: white;
+}
+
+body, button, a {
+  font: 400 25rem 'Montserrat', sans-serif;
+  color: white;
+}
+
+h1 {
+  font: 400 50rem 'Abril Fatface', sans-serif;
+}
+
+#navbar {
+  background: #fff;
+  height: 100vh;
+}
+
+#navbar .nav {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  height: 15vh;
+}
+
+#navbar .nav h1 {
+  font-weight: 700;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #000;
+}
+
+#navbar .nav a {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 18rem;
+  font-weight: 500;
+  padding: 10rem 20rem;
+  border-radius: 20px;
+  border: 2rem solid #000;
+  color: #000;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+#navbar .nav a:hover {
+  border: 2rem solid #5a5a5a;
+  color: #fff;
+  background: #000;
+}
+
+#navbar .message {
+  color: #000;
+  height: 85vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../assets/images/bg.png);
+}
+
+#navbar .message h1 {
+  width: 70vw;
+  margin: 0 auto;
+  padding: 50rem 0;
+  font: 600 30rem "Montserrat", sans-serif;
+}
+
+#cards {
+  position: static;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+#cards .slide {
+  min-height: 100vh;
+  margin: 0 auto;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+#cards .img-container {
+  position: relative;
+  width: 50%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -ms-flex-preferred-size: 50rem;
+      flex-basis: 50rem;
+  overflow: hidden;
+}
+
+#cards .img-container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#cards .desc-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -ms-flex-preferred-size: 25rem;
+      flex-basis: 25rem;
+  padding-left: 100rem;
+  position: relative;
+}
+
+#cards .desc-container .title {
+  position: relative;
+  overflow: hidden;
+}
+
+#cards .desc-container .title .title-swipe {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  mix-blend-mode: darken;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  background: #ff0000;
+}
+
+#cards .desc-container .title .blood-donation-span {
+  color: #ff0000;
+}
+
+#cards .desc-container .title .dog-span {
+  color: #adff2f;
+}
+
+#cards .desc-container .title .kid-span {
+  color: #ffa500;
+}
+
+#cards .desc-container .title .poverty-span {
+  color: #bd0dbd;
+}
+
+#cards .desc-container .title .homeless-span {
+  color: #ffff00;
+}
+
+#cards .desc-container .title .organ-donation-span {
+  color: #00eeff;
+}
+
+#cards .desc-container p {
+  padding: 30rem 0;
+  color: #cfcdcd;
+}
+
+#cards .explore {
+  padding: 20rem;
+  background: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15rem;
+  text-decoration: none;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+#cards .explore::after, #cards .explore::before {
+  border: 2rem solid #fff;
+  content: "";
+  position: absolute;
+  width: calc(100% - 6rem);
+  height: calc(100% - 6rem);
+  left: 0rem;
+  bottom: 0rem;
+  z-index: -1;
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  transition: -webkit-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
+}
+
+#cards .explore:hover::after {
+  -webkit-transform: translate(-4rem, -4rem);
+          transform: translate(-4rem, -4rem);
+}
+
+#cards .explore:hover::before {
+  -webkit-transform: translate(4rem, 4rem);
+          transform: translate(4rem, 4rem);
+}
+
+#cards .reveal-img,
+#cards .reveal-text {
+  position: absolute;
+  width: 100%;
+  height: 110%;
+  background: #17181a;
+  left: 0;
+  top: -10%;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+#footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fff;
+  height: 13vh;
+  color: #000;
+}
+
+#footer .content {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+
+#footer .content span {
+  margin: auto 0;
+  font-size: 18rem;
+  font-weight: 700;
+}
+
+#footer .content .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 17rem;
+}
+
+#footer .content .icons a svg {
+  width: 27rem;
+  height: auto;
+  border-radius: 50%;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+#footer .content .icons a svg:hover {
+  fill: #ffffff;
+  background: #000;
+  border: 1rem solid #000;
+}
+/*# sourceMappingURL=style.css.map */

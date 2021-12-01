@@ -1,0 +1,33 @@
+#footer {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  height: 13vh;
+  color: #000;
+  .content {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    span {
+      margin: auto 0;
+      font-size: 18rem;
+      font-weight: 700;
+    }
+    .icons {
+      display: flex;
+      gap: 17rem;
+      a svg {
+        width: 27rem;
+        height: auto;
+        border-radius: 50%;
+        transition: all 0.4s ease-in-out;
+        &:hover {
+          fill: #ffffff;
+          background: #000;
+          border: 1rem solid #000;
+        }
+      }
+    }
+  }
+}
