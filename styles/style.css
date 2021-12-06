@@ -91,10 +91,12 @@ h1 {
 #cards {
   position: static;
   margin: 0 auto;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 #cards .slide {
+  z-index: 9;
+  position: static;
   min-height: 100vh;
   margin: 0 auto;
   width: 80%;
@@ -147,6 +149,7 @@ h1 {
       flex-basis: 25rem;
   padding-left: 100rem;
   position: relative;
+  overflow: hidden;
 }
 
 #cards .desc-container .title {
@@ -197,6 +200,7 @@ h1 {
 
 #cards .explore {
   padding: 20rem;
+  margin-bottom: 10rem;
   background: none;
   color: #fff;
   font-weight: 500;
@@ -247,10 +251,19 @@ h1 {
           transform: translateX(100%);
 }
 
+.scrollmagic-pin-spacer {
+  position: static !important;
+}
+
+body.hide {
+  overflow: hidden;
+}
+
 #footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: static;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -277,6 +290,7 @@ h1 {
 }
 
 #footer .content .icons {
+  z-index: 10;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

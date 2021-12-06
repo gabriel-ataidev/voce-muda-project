@@ -1,8 +1,10 @@
 #cards {
   position: static;
   margin: 0 auto;
-  overflow-x: hidden;
+  overflow: hidden;
   .slide {
+    z-index: 9;
+    position: static;
     min-height: 100vh;
     margin: 0 auto;
     width: 80%;
@@ -32,6 +34,7 @@
     flex-basis: 25rem;
     padding-left: 100rem;
     position: relative;
+    overflow: hidden;
     .title {
       position: relative;
       overflow: hidden;
@@ -80,6 +83,7 @@
   }
   .explore {
     padding: 20rem;
+    margin-bottom: 10rem;
     background: none;
     color: #fff;
     font-weight: 500;
@@ -118,4 +122,11 @@
     top: -10%;
     transform: translateX(100%);
   }
+}
+
+.scrollmagic-pin-spacer{
+  position: static !important;
+}
+body.hide{
+  overflow: hidden;
 }

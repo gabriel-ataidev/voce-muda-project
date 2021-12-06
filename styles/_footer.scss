@@ -1,5 +1,6 @@
 #footer {
   display: flex;
+  position: static;
   align-items: center;
   background: #fff;
   height: 13vh;
@@ -15,6 +16,7 @@
       font-weight: 700;
     }
     .icons {
+      z-index: 10;
       display: flex;
       gap: 17rem;
       a svg {
