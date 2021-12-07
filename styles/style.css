@@ -16,7 +16,7 @@ html {
 
 body {
   background: #17181a;
-  color: white;
+  color: #fff;
 }
 
 body, button, a {
@@ -26,6 +26,7 @@ body, button, a {
 
 h1 {
   font: 400 50rem 'Abril Fatface', sans-serif;
+  color: #fff;
 }
 
 #navbar {
@@ -95,7 +96,6 @@ h1 {
 }
 
 #cards .slide {
-  z-index: 9;
   position: static;
   min-height: 100vh;
   margin: 0 auto;
@@ -107,6 +107,7 @@ h1 {
       -ms-flex-align: center;
           align-items: center;
   color: white;
+  background-color: #17181a;
 }
 
 #cards .img-container {
@@ -166,11 +167,35 @@ h1 {
   mix-blend-mode: darken;
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
-  background: #ff0000;
+  background: #fa2a2a;
+}
+
+#cards .desc-container .title .t-swipe2 {
+  background: #adff2f;
+}
+
+#cards .desc-container .title .t-swipe3 {
+  background: #fa2a2a;
+}
+
+#cards .desc-container .title .t-swipe4 {
+  background: #fdb837;
+}
+
+#cards .desc-container .title .t-swipe5 {
+  background: #c42fc4;
+}
+
+#cards .desc-container .title .t-swipe6 {
+  background: #f8f842;
+}
+
+#cards .desc-container .title .t-swipe7 {
+  background: #31eefb;
 }
 
 #cards .desc-container .title .blood-donation-span {
-  color: #ff0000;
+  color: #fa2a2a;
 }
 
 #cards .desc-container .title .dog-span {
@@ -178,19 +203,19 @@ h1 {
 }
 
 #cards .desc-container .title .kid-span {
-  color: #ffa500;
+  color: #fdb837;
 }
 
 #cards .desc-container .title .poverty-span {
-  color: #bd0dbd;
+  color: #c42fc4;
 }
 
 #cards .desc-container .title .homeless-span {
-  color: #ffff00;
+  color: #f8f842;
 }
 
 #cards .desc-container .title .organ-donation-span {
-  color: #00eeff;
+  color: #31eefb;
 }
 
 #cards .desc-container p {

@@ -3,7 +3,6 @@
   margin: 0 auto;
   overflow: hidden;
   .slide {
-    z-index: 9;
     position: static;
     min-height: 100vh;
     margin: 0 auto;
@@ -11,6 +10,7 @@
     display: flex;
     align-items: center;
     color: white;
+    background-color: #17181a;
   }
   .img-container {
     position: relative;
@@ -46,34 +46,43 @@
         position: absolute;
         mix-blend-mode: darken;
         transform: translateY(100%);
-        background: #ff0000;
+        background: #fa2a2a;
       }
-      //   .t-swipe1 {
-      //     background: $swipe-colorm;
-      //   }
-      //   .t-swipe2 {
-      //     background: $swipe-colorh;
-      //   }
-      //   .t-swipe3 {
-      //     background: $swipe-colorf;
-      //   }
+      .t-swipe2{
+        background: #adff2f;
+      }
+      .t-swipe3{
+        background: #fa2a2a;
+      }
+      .t-swipe4{
+        background: #fdb837;
+      }
+      .t-swipe5{
+        background: #c42fc4;
+      }
+      .t-swipe6{
+        background: #f8f842;
+      }
+      .t-swipe7{
+        background: #31eefb;
+      }
       .blood-donation-span {
-        color: #ff0000;
+        color: #fa2a2a;
       }
       .dog-span {
         color: #adff2f;
       }
       .kid-span {
-        color: #ffa500;
+        color: #fdb837;
       }
       .poverty-span {
-        color: #bd0dbd;
+        color: #c42fc4;
       }
       .homeless-span {
-        color: #ffff00;
+        color: #f8f842;
       }
       .organ-donation-span {
-        color: #00eeff;
+        color: #31eefb;
       }
     }
     p {
