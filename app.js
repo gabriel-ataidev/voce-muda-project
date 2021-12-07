@@ -27,15 +27,13 @@ function animateSlides() {
       reverse: false,
     })
       .setTween(slideTl)
-    //   .addIndicators({
-    //     colorStart: "white",
-    //     colorTrigger: "white",
-    //     name: "slide",
-    //   })
       .addTo(controller);
     //new animation
     const pageTl = gsap.timeline();
     let nextSlide = slides.length - 1 === index ? "end" : slides[index + 1];
+    if (nextSlide === "end") {
+      return false;
+    }
     pageTl.fromTo(nextSlide, {y: "0%"}, {y: "50%"});
     pageTl.fromTo(slide, {opacity: 1, scale: 1}, {opacity: 0, scale: 0.5});
     pageTl.fromTo(nextSlide, {y: "50%"}, {y: "0%"}, "-=0.5");
@@ -47,13 +45,26 @@ function animateSlides() {
     })
       .setPin(slide, {pushFollowers: false})
       .setTween(pageTl)
-    //   .addIndicators({
-    //     colorStart: "white",
-    //     colorTrigger: "white",
-    //     name: "page",
-    //     indent: 200,
-    //   })
       .addTo(controller);
   });
 }
 animateSlides();
+
+window.addEventListener("mousemove", cursor);
+window.addEventListener("mouseover", activeCursor);
+const mouse = document.querySelector(".cursor");
+
+function cursor(e) {
+  mouse.style.top = e.pageY + "px";
+  mouse.style.left = e.pageX + "px";
+}
+function activeCursor(e) {
+  const item = e.target;
+  if (item.classList.contains("explore")) {
+    mouse.classList.add("explore-active");
+    gsap.to(".title-swipe", 1, {y: "0%"});
+  } else {
+    mouse.classList.remove("explore-active");
+    gsap.to(".title-swipe", 1, {y: "100%"});
+  }
+}
