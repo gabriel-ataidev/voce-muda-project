@@ -1,4 +1,4 @@
-@media (max-width: 400px) {
+@media (max-width: 800px) {
   #navbar {
     .nav {
       width: 90%;
@@ -29,7 +29,11 @@
       min-width: 100%;
       .img-container {
         width: 100%;
-        max-height: 300rem;
+        max-height: 500rem;
+        img{
+          position: absolute;
+          bottom: 0;
+        }
       }
       .desc-container {
         display: flex;

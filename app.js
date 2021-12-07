@@ -48,7 +48,7 @@ function animateSlides() {
   });
 }
 function yourFunction() {
-    if (window.innerWidth >= 700) {
+    if (window.innerWidth >= 800) {
         animateSlides();
     }
 }

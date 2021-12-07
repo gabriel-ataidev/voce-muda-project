@@ -361,7 +361,7 @@ body.hide {
   border: 1rem solid #000;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 800px) {
   #navbar .nav {
     width: 90%;
   }
@@ -393,7 +393,11 @@ body.hide {
   }
   #cards .slide .img-container {
     width: 100%;
-    max-height: 300rem;
+    max-height: 500rem;
+  }
+  #cards .slide .img-container img {
+    position: absolute;
+    bottom: 0;
   }
   #cards .slide .desc-container {
     display: -webkit-box;
