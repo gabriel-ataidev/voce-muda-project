@@ -1,7 +1,6 @@
 let controller;
 let slideScene;
 let pageScene;
-
 function animateSlides() {
   //init controller
   controller = new ScrollMagic.Controller();
@@ -48,12 +47,16 @@ function animateSlides() {
       .addTo(controller);
   });
 }
-animateSlides();
+function yourFunction() {
+    if (window.innerWidth >= 700) {
+        animateSlides();
+    }
+}
+yourFunction();
 
 window.addEventListener("mousemove", cursor);
 window.addEventListener("mouseover", activeCursor);
 const mouse = document.querySelector(".cursor");
-
 function cursor(e) {
   mouse.style.top = e.pageY + "px";
   mouse.style.left = e.pageX + "px";

@@ -46,6 +46,10 @@
         }
         .explore {
           margin: 0 auto;
+          &::after,
+          &::before {
+            z-index: 1;
+          }
         }
       }
     }

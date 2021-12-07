@@ -389,6 +389,9 @@ body.hide {
   #cards .slide .desc-container .explore {
     margin: 0 auto;
   }
+  #cards .slide .desc-container .explore::after, #cards .slide .desc-container .explore::before {
+    z-index: 1;
+  }
   #footer {
     height: 12vh;
   }
