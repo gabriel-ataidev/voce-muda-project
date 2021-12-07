@@ -1,38 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kumbh+Sans:wght@400;700&family=Montserrat:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kumbh+Sans:wght@400;700&family=Montserrat:wght@400;500;600;700&display=swap");
 
-:root{
-    font-size: 6.67%;
+:root {
+  font-size: 6.67%;
 }
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 ::-webkit-scrollbar {
-    width: 15px;
-    &-track {
-      background: #3a3a3a;  
-    }
-    &-thumb {
-      background: #1f1f1f;
-      border-radius: 10px;
-      &:hover {
-        background: #0c0c0c;
-      }
+  width: 15px;
+  &-track {
+    background: #3a3a3a;
+  }
+  &-thumb {
+    background: #1f1f1f;
+    border-radius: 10px;
+    &:hover {
+      background: #0c0c0c;
     }
   }
-body{
-    background: #17181a;
-    color: #fff;
 }
-body, button, a{
-    font: 400 25rem 'Montserrat', sans-serif;
-    color: white;
+body {
+  background: #141519;
+  color: #fff;
 }
-h1{
-    font: 400 50rem 'Abril Fatface', sans-serif;
-    color: #fff;
+body,
+button,
+a {
+  font: 400 25rem "Montserrat", sans-serif;
+  color: white;
+}
+h1 {
+  font: 400 50rem "Abril Fatface", sans-serif;
+  color: #fff;
 }

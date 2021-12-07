@@ -7,7 +7,8 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    height: 15vh;
+    height: 12vh;
+    max-height: 100px;
     h1 {
       font-weight: 700;
       font-family: "Kumbh Sans", sans-serif;
@@ -31,17 +32,19 @@
     }
   }
   .message {
-    color: #000;
-    height: 85vh;
-    background-position: center;
+    min-height: 90vh;
+    background-position-y: bottom;
+    background-position-x: center;
     background-size: cover;
     background-repeat: no-repeat;
-    // background-image: url(../assets/images/bg.png);
+    background-image: url('/assets/bg.png');
     p {
+      text-align: center;
       width: 70vw;
       margin: 0 auto;
-      padding: 50rem 0;
+      padding: 110rem 0;
       font: 600 30rem "Montserrat", sans-serif;
+      color: #fff;
     }
   }
 }
