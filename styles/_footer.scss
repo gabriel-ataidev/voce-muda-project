@@ -13,22 +13,22 @@
     margin: 0 auto;
     span {
       margin: auto 0;
-      font-size: 18rem;
+      font-size: 18px;
       font-weight: 700;
     }
     .icons {
       z-index: 10;
       display: flex;
-      gap: 17rem;
+      gap: 17px;
       a svg {
-        width: 27rem;
+        width: 27px;
         height: auto;
         border-radius: 50%;
         transition: all 0.4s ease-in-out;
         &:hover {
           fill: #ffffff;
           background: #000;
-          border: 1rem solid #000;
+          border: 1px solid #000;
         }
       }
     }

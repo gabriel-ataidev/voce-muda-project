@@ -335,7 +335,7 @@ body.hide {
 
 #footer .content span {
   margin: auto 0;
-  font-size: 18rem;
+  font-size: 18px;
   font-weight: 700;
 }
 
@@ -344,11 +344,11 @@ body.hide {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 17rem;
+  gap: 17px;
 }
 
 #footer .content .icons a svg {
-  width: 27rem;
+  width: 27px;
   height: auto;
   border-radius: 50%;
   -webkit-transition: all 0.4s ease-in-out;
@@ -358,7 +358,7 @@ body.hide {
 #footer .content .icons a svg:hover {
   fill: #ffffff;
   background: #000;
-  border: 1rem solid #000;
+  border: 1px solid #000;
 }
 
 @media (max-width: 800px) {
@@ -438,8 +438,8 @@ body.hide {
   }
   #footer .content span {
     margin: 0 auto;
-    font-size: 15rem;
-    padding-bottom: 10rem;
+    font-size: 15px;
+    padding-bottom: 10px;
   }
   #footer .content .icons {
     -webkit-box-pack: center;
