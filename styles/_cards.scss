@@ -17,7 +17,7 @@
     position: relative;
     width: 50%;
     flex: 1;
-    flex-basis: 50rem;
+    flex-basis: 50px;
     overflow: hidden;
     img {
       width: 100%;
@@ -32,8 +32,8 @@
     justify-content: center;
     align-items: center;
     flex: 1;
-    flex-basis: 25rem;
-    padding-left: 100rem;
+    flex-basis: 25px;
+    padding-left: 100px;
     position: relative;
     overflow: hidden;
     .title {
@@ -87,17 +87,17 @@
       }
     }
     p {
-      padding: 30rem 0;
+      padding: 30px 0;
       color: #cfcdcd;
     }
   }
   .explore {
-    padding: 20rem;
-    margin-bottom: 10rem;
+    padding: 20px;
+    margin-bottom: 10px;
     background: none;
     color: #fff;
     font-weight: 500;
-    font-size: 15rem;
+    font-size: 15px;
     text-decoration: none;
     align-self: flex-start;
     cursor: pointer;
@@ -105,21 +105,21 @@
     transition: all 0.4s ease-in-out;
     &::after,
     &::before {
-      border: 2rem solid #fff;
+      border: 2px solid #fff;
       content: "";
       position: absolute;
-      width: calc(100% - 6rem);
-      height: calc(100% - 6rem);
-      left: 0rem;
-      bottom: 0rem;
+      width: calc(100% - 6px);
+      height: calc(100% - 6px);
+      left: 0px;
+      bottom: 0px;
       z-index: -1;
       transition: transform 0.4s ease-in-out;
     }
     &:hover::after {
-      transform: translate(-4rem, -4rem);
+      transform: translate(-4px, -4px);
     }
     &:hover::before {
-      transform: translate(4rem, 4rem);
+      transform: translate(4px, 4px);
     }
   }
   .reveal-img,

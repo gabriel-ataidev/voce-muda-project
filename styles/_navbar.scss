@@ -17,15 +17,15 @@
     a {
       text-decoration: none;
       cursor: pointer;
-      font-size: 18rem;
+      font-size: 18px;
       font-weight: 500;
-      padding: 10rem 20rem;
+      padding: 10px 20px;
       border-radius: 20px;
-      border: 2rem solid #000;
+      border: 2px solid #000;
       color: #000;
       transition: all 0.4s ease-in-out;
       &:hover {
-        border: 2rem solid #5a5a5a;
+        border: 2px solid #5a5a5a;
         color: #fff;
         background: #000;
       }
@@ -42,8 +42,8 @@
       text-align: center;
       width: 70vw;
       margin: 0 auto;
-      padding: 110rem 0;
-      font: 600 30rem "Montserrat", sans-serif;
+      padding: 110px 0;
+      font: 600 30px "Montserrat", sans-serif;
       color: #fff;
     }
   }
