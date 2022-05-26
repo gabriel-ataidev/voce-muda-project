@@ -1,6 +1,7 @@
 # VOCÊ MUDA
 
-Neste projeto filantrópico foram utilizadas as tecnologias HTML5, CSS3 (SASS), JavaScript, ScrollMagic e GSAP. Um projeto bastante desafiador em que pude praticar várias funcionalidades do frontend.
+Neste projeto foi desenvolvido uma página que apresenta ao leitor varias opções para fazer doações e participar de ações beneficentes para tornar o mundo um lugar melhor.
+Neste projeto filantrópico foram utilizadas as tecnologias HTML5, CSS3 (SASS), JavaScript, ScrollMagic e GSAP.
 ##
 
 <a href="https://vocemuda.netlify.app/">CLIQUE AQUI PARA CONHECER O PROJETO!</a>
